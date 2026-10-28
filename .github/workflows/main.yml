@@ -1,12 +1,13 @@
-name: kulshresth 
-on:
- push: 
-   branches: [main]
+name: Kulshresth
 
-jobs: 
+on:
+  push:
+    branches: [main]
+
+jobs:
   demo:
     runs-on: ubuntu-latest
 
-steps:
-   -name: Greetings
-      run: echo "hello kulshresth"
+    steps:
+      - name: Greetings
+        run: echo "Hello Kulshresth"
